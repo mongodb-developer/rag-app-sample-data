@@ -3,9 +3,6 @@
 A few sample data files, to be used for demonstrating RAG search with MongoDB.
 
 This repository is designed to be used by LangChain's [GitHub document loader](https://python.langchain.com/docs/integrations/document_loaders/github#load-github-file-content).
-
-https://github.com/mongodb-developer/rag-app-sample-data.git
-
 ```python
 loader = GithubFileLoader(
     repo="mongodb-developer/rag-app-sample-data",
